@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #000000;
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 255, 0, 0) 80%);
+    background: -webkit-linear-gradient(90deg, #000000 0%, rgba(0, 255, 0, 0) 80%);
+    background: -moz-linear-gradient(90deg, #000000 0%, rgba(0, 255, 0, 0) 80%);
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/031c42b9-0c81-4db5-b980-0160765188e9/d4a5ce7f-8ed5-4f19-847e-c30dcb94434f/KR-ko-20240819-TRIFECTA-perspective_WEB_b52e8b72-0adb-4297-b373-a69e092f69e4_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-attachment: fixed;
+    background-blend-mode: multiply 40%;
+    overflow: scroll;
+
+}
+
+.main-container {
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+div {
+    justify-content: space-between;
+}
+
+.drop {
+    margin-right: 10px;
+    background-color: rgb(42, 42, 42);
+    color: #ffffff33;
+    height: 100%;
+    width: 120px;
+    border-radius: 5px;
+    border: #ffffff33 solid 0.5px;
+}
+
+div select option {
+    text-align: center;
+    color: rgb(234, 234, 234);
+}
+
+.login_btn {
+    cursor: pointer;
+    width: 100px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f40000;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 18px;
+    transition: all 0.3s;
+    line-height: 43px;
+
+}
+
+div ul {
+    margin-top: 50px;
+}
+
+.text1 {
+    font-style: bold;
+    font-size: 4em;
+}
+
+.text2 {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+div ul li {
+    list-style: none;
+    text-align: center;
+    color: whitesmoke;
+    justify-content: space-around
+}
